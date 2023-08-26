@@ -9,7 +9,7 @@ This will be a step-by-step guide to create a Kubernetes cluster using EKS throu
 
 * **[VPC (Virtual Private Cloud)](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/vpc-tkv.html):** Amazon Virtual Private Cloud (Amazon VPC) enables you to launch Amazon Web Services resources into a virtual network you've defined. This virtual network resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 
-* **[IAM (Identity Access Manager)](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html): ** AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access.
+* **[IAM (Identity Access Manager)](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html):** AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access.
 
 ---
 
