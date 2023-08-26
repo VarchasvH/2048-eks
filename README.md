@@ -3,15 +3,14 @@ This will be a step-by-step guide to create a Kubernetes cluster using EKS throu
 
 ## Tools Used
 
-* EKS (Elastic Kubernetes Service)
+* **[EKS (Elastic Kubernetes Service)](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html/):** A managed service that you can use to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes.
 
-* Fargate
+* **[Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html):** AWS Fargate is a technology that you can use with Amazon ECS to run containers without having to manage servers or clusters of Amazon EC2 instances.
 
-* VPC (Virtual Private Cloud)
+* **[VPC (Virtual Private Cloud)](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/vpc-tkv.html):** Amazon Virtual Private Cloud (Amazon VPC) enables you to launch Amazon Web Services resources into a virtual network you've defined. This virtual network resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 
-* IAM (Identity Access Manager)
+* **[IAM (Identity Access Manager)](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html): ** AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. With IAM, you can centrally manage permissions that control which AWS resources users can access.
 
-* Elastic IPs
 ---
 
 # Pre-Requisite
@@ -118,9 +117,6 @@ kubectl get ingress -n game-2048
 ```
 eksctl delete cluster --name <cluster-name> --region <region-name>
 ```
-
-
-
 
 
 
